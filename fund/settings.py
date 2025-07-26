@@ -25,17 +25,17 @@ EMAIL_PORT = EMAIL_PORT
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 APPEND_SLASH=False
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-+)wjn4sbjt-a*p%2y5!e57p&nsxj06tdjp9#r1z8d3xeo_iajv'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
 
-client_id = '499624255905-mnqu9ekj1b1o7g0b1rkvjsaqd62cm901.apps.googleusercontent.com'
-client_secret = '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'
+client_id = ''
+client_secret = ''
 # Application definition
-{"web":{"client_id":"499624255905-mnqu9ekj1b1o7g0b1rkvjsaqd62cm901.apps.googleusercontent.com","project_id":"splendid-myth-382214","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"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"}}
+{"web":{"client_id:"}}
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -129,9 +129,3 @@ STATICFILES_DIRS=[os.path.join(BASE_DIR,"static"),]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-"""DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-AWS_ACCESS_KEY_ID = 'AWS_ACCESS_KEY_ID'
-AWS_SECRET_ACCESS_KEY = 'AWS_SECRET_ACCESS_KEY'
-AWS_STORAGE_BUCKET_NAME = 'AWS_STORAGE_BUCKET_NAME'
-AWS_QUERYSTRING_AUTH = False"""
